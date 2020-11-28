@@ -14,13 +14,13 @@ if __name__ == "__main__":
             repo = Repo(path)
         except InvalidGitRepositoryError:
             print(f"No git repository found in {path}")
-            exit()
+            sys.exit()
     else:
         try:
             repo = Repo()
         except InvalidGitRepositoryError:
             print("Not git repository found in this directory")
-            exit()
+            sys.exit()
 
     all_branches = [head.name for head in repo.heads]
     all_branches.remove(repo.active_branch.name)
