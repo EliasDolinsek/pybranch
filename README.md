@@ -7,7 +7,7 @@ Use pybranch in current directory: **pybranch**
 Use pybranch in different directory: **pybranch /path/to/directory/**
 
 ## Installation
-1. Download and unzip pybranch.zip
+1. Download and unzip pybranch.zip from releases section
 2. Save bin folder in your desired location (for example $HOME/.pybranch/bin)
 3. Add pybranch to your path
 
